@@ -1,0 +1,1 @@
+void statprint(char* file);
