@@ -11,5 +11,5 @@ int main(){
     
     printf("makefile was last modified %s", ctime(&(buffer.st_mtime)));
     printf("makefile is %ld bytes big\n", buffer.st_size);
-    printf("makefile's permissions, currently still a number lol: %d\n", buffer.st_mode);
+    printf("makefile's permissions: %o\n", buffer.st_mode);
 }

@@ -4,6 +4,7 @@ all: statistics.c
 clean:
 	rm *.o
 	rm *~
+	rm homework
 
 run: all
 	./homework
