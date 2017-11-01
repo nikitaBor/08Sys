@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "statistics.h"
 #include <sys/stat.h>
 #include <unistd.h>
 
