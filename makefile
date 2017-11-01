@@ -1,11 +1,9 @@
-all: main.o statistics.o
-	gcc -o homework main.o statistics.o
-main.o: main.c statistics.h
-	gcc -c main.c
-statistics.o: statistics.c statistics.h
-	gcc -c statistics.c
+all: statistics.c
+	gcc -o homework statistics.c
+
 clean:
 	rm *.o
-	rm homework
+	rm *~
+
 run: all
 	./homework
